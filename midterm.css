@@ -1,9 +1,11 @@
-html{
+html{background-color:#E0EEE0;
+
  }
 
 .page-wrapper{ 
-width: 10000px;
-height: 600px;}
+width: 5000px;
+height: 600px;
+background-image:url(background.png);}
 				
 a:link { color: black;}
 		
@@ -24,29 +26,34 @@ height:600px;
 
 float:left;}
 
-.summary{ width: 300px;
+.summary { width: 300px;
 height: 125px;
 color: black;
 position:absolute;
 top:150px;
-left:10px;
-background-color:#40664D;}
+left:40px;
+background-color:#40664D;
+color: white;
+font-family:Garamond, Serif;
+padding-left: 10px;
+}
 .preamble{
 width:300px;
-height:550px;
+height:350px;
 background-color: #40664D;
 color:white;
 position: absolute;
-top:250px;
+top:300px;
 left:10px;
 font-family: Helvetica, Arial, Sans-serif;
+padding: 10px;
 
 margin:0px 30px 0px 30px; }
 
 .sidebar{ width: 300px;
 height: 350px;
 background-color: white;
-margin-bottom: 20px;
+margin:0 20px 0px 30px;
 padding-left: 10px;
 padding-bottom:10px;
 float:left;
@@ -63,7 +70,7 @@ height: 550px;
 background-color: white;
 text-align: justify;
 float: left; 
-font-family:Garmond, serif;
+font-family:Garamond, serif;
 padding: 0 10px 0 10px;
 text-align:justified;
 text-decoration:none;
@@ -80,4 +87,30 @@ float:left;
 padding:0 10px 0 10px;
 margin: 50px 0px 0px 30px;
 border: solid 1px #BDFCC9;
+
 }
+
+.requirements {width: 300px;
+height: 500px;
+background-color: white;
+font-family:Helvetica, Arial, Sans-serif;
+text-align:justify;
+text-decoration:none;
+float:left; 
+padding:0 10px 0 10px;
+margin: 50px 0px 0px 30px;
+border: solid 1px #BDFCC9;}
+
+.explanation{ width: 1000px;
+height: 200px;
+position: absolute;
+top: 700px;
+left: 50px;}
+
+footer{ width: 500px;
+height: 100px;
+position: absolute;
+top: 760px;
+left: 50px;}
+ 
+
