@@ -4,7 +4,7 @@ html{background-color:#E0EEE0;
 
 .page-wrapper{ 
 width: 2300px;
-height: 600px;
+height: 800px;
 background-image:url(background.png);}
 				
 a:link { color: black;}
@@ -12,14 +12,15 @@ a:link { color: black;}
 header { width:325px;
 height: 100px;
 background-color:#C1CDC1;
-color:#838B83;
+color:white;
 font-family: Helvetica, Arial, sans-serif;
 float:left;
 position:fixed;
 top:30px;
 left:10px;
 text-decoration: uppercase;
-padding: 0 10px 10px 10px; }
+padding: 0 10px 5px 10px; 
+border-radius: 10px;}
 
 .intro{ width: 500px;
 height:600px;
@@ -62,7 +63,7 @@ color:black;
 text-decoration:none;
 text-align: justify;
 
-margin: 50px 0 0px 30px;
+margin: 130px 0 0px 30px;
 }
 
 .participation{width: 300px;
@@ -74,7 +75,7 @@ font-family:Garamond, serif;
 padding: 0 10px 0 10px;
 text-align:justified;
 text-decoration:none;
-margin: 50px 0 0px 30px;
+margin: 130px 0 0px 30px;
 }
 
 .benefits{width: 300px;
@@ -85,19 +86,19 @@ text-align:justify;
 text-decoration:none;
 float:left; 
 padding:0 10px 0 10px;
-margin: 50px 0px 0px 30px;
+margin: 130px 0px 0px 30px;
 
 }
 
 .requirements {width: 600px;
-height: 500px;
+height: 530px;
 background-color: white;
 font-family:Helvetica, Arial, Sans-serif;
 text-align:justify;
 text-decoration:none;
 float:left; 
 padding:0 10px 0 10px;
-margin: 50px 0px 0px 30px;
+margin: 130px 0px 0px 30px;
 
 }
 
@@ -115,5 +116,8 @@ position: absolute;
 top: 760px;
 left: 50px;}
  
- h3 { font-family: monospace;}
+ h3 { font-family: monospace;
+ background-color: #CDAA7D;
+ height: 40px;
+ width:100px;}
 
