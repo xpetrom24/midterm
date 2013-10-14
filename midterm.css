@@ -37,7 +37,7 @@ background-color:#698B69;
 color: white;
 font-family:Helvetica, Arial, sans-serif;
 padding-left: 10px;
-border-radius:5 px;
+border-radius: 5px;
 }
 .preamble{
 width:300px;
@@ -77,7 +77,7 @@ text-align: justify;
 float: right; 
 font-family:Helvetica, Arial, sans-serif;
 padding: 0 10px 0 10px;
-text-align:justified;
+text-align:justify;
 text-decoration:none;
 margin: 120px 20px 0px 30px;
 border-radius: 5px;
@@ -135,10 +135,13 @@ padding: 10px;
 }
  
  h3 { font-family: monospace;
- background-color: 	#698B69;
+ background-color: 	#2F4F4F;
  height: 40px;
  width:200px;
+ color: white;
  text-align: center;
- border-radius: 2px;
+ border-radius: 5px;
  }
 
+@media (max-width: 320px) {
+}
