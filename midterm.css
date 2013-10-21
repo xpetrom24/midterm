@@ -1,3 +1,4 @@
+
 html{background-color:#C6E2FF;
 
  }
@@ -141,5 +142,12 @@ padding: 10px;
  color: white;
  text-align: center;
  border-radius: 5px;
- }
+ } 
+
+
+@media all and(max-width:480px) { 
+
+.page-wrapper{ width: 480px;
+height:1000px;
+ }}
 
