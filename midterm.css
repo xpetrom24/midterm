@@ -1,3 +1,145 @@
-html {
-	background-color:green;
+html{background-color:#C6E2FF;
+
+ }
+
+.page-wrapper{ 
+width: 2500px;
+height: 675px;
+background-image:url(background.png);}
+				
+a:link { color: black;}
+		
+header { width:325px;
+height: 100px;
+background-color:#698B69;
+color:white;
+font-family: Helvetica, Arial, sans-serif;
+float:left;
+position:fixed;
+top:10px;
+left:10px;
+
+padding: 0 10px 5px 10px; 
+border-radius: 10px;
+border: white 5px double;}
+.intro{ width: 500px;
+height:600px;
+
+float:left;}
+
+.summary { width: 300px;
+height: 140px;
+color: black;
+position:absolute;
+top:130px;
+left:40px;
+background-color:#698B69;
+color: white;
+font-family:Helvetica, Arial, sans-serif;
+padding-left: 10px;
+border-radius: 5px;
 }
+.preamble{
+width:300px;
+height:370px;
+background-color: #698B69;
+color:white;
+position: absolute;
+top:280px;
+left:10px;
+font-family: Helvetica, Arial, Sans-serif;
+padding: 10px;
+
+border-radius: 5px;
+
+
+margin:0px 30px 0px 30px; }
+
+.sidebar{ width: 300px;
+height: 450px;
+background-color: white;
+margin:0 20px 0px 30px;
+padding:10px;
+float:right;
+font-family: Helvetica, Arial, Sans-serif;
+font-size: 12px;
+color:black;
+text-decoration:none;
+text-align: justify;
+border-radius: 5px;
+margin: 125px 0 0px 30px;
+}
+
+.participation{width: 300px;
+height: 520px;
+background-color: white;
+text-align: justify;
+float: right; 
+font-family:Helvetica, Arial, sans-serif;
+padding: 0 10px 0 10px;
+text-align:justify;
+text-decoration:none;
+margin: 120px 20px 0px 30px;
+border-radius: 5px;
+
+}
+
+.benefits{width: 300px;
+height: 250px;
+background-color: white;
+font-family:serif;
+text-align:justify;
+text-decoration:none;
+float:right; 
+padding:0 10px 0 10px;
+margin: 125px 0px 0px 30px;
+border-radius: 5px;
+font-family:Helvetica, Arial, sans-serif;
+}
+
+.requirements {width: 600px;
+height: 530px;
+background-color: white;
+font-family:serif;
+text-align:justify;
+text-decoration:none;
+float:right; 
+padding:0 10px 0 10px;
+margin: 125px 0px 0px 30px;
+border-radius: 5px;
+font-family:Helvetica, Arial, sans-serif;
+}
+
+.explanation{ width:400px;
+height:400px;
+position:absolute;
+top: 130px;
+left: 380px;
+background-color: #F0FFF0;
+font-family:Helvetica, Arial, sans-serif;
+
+border-radius: 5px;
+padding-left: 10px;
+margin-bottom: 20px;
+}
+
+footer{ width: 185px;
+height: 25px;
+position : fixed;
+
+left: 400px;
+background-color: #F0FFF0;
+
+border-radius: 5px;
+padding: 10px;
+}
+ 
+ h3 { font-family: monospace;
+ background-color: 	#2F4F4F;
+ height: 40px;
+ width:200px;
+ color: white;
+ text-align: center;
+ border-radius: 5px;
+ }
+
